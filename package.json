@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/fzred/base-simple/issues"
   },
-  "homepage": "https://github.com/fzred/base-simple#readme"
+  "homepage": "https://github.com/fzred/base-simple#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "^7.0.0",
+    "eslint-plugin-import": "^1.14.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
