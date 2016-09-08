@@ -1,3 +1,3 @@
 import './css/index.css'
 
-console.log(43)
+window.document.writeln(Date.now())

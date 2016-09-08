@@ -4,8 +4,10 @@ import webpack from 'webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import baseConfig from './webpack-base.config'
 
+const hotMiddlewareScript = 'webpack-hot-middleware/client?noInfo=true&reload=true'
+
 Object.keys(baseConfig.entry).forEach(name => {
-  baseConfig.entry[name] = ['./build/dev-client'].concat(baseConfig.entry[name])
+  baseConfig.entry[name] = [hotMiddlewareScript].concat(baseConfig.entry[name])
 })
 
 export default merge(baseConfig, {
