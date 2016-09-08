@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     "no-unused-vars": process.env.NODE_ENV === 'prod' ? 2 : 0,
     'no-debugger': process.env.NODE_ENV === 'prod' ? 2 : 0,
+    "comma-dangle": 0,
     "semi": [2, "never"],
     "one-var": 0,
     "no-console": 0,

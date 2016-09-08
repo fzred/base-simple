@@ -3,10 +3,10 @@ import webpack from 'webpack'
 import webpackDevMiddleware from 'webpack-dev-middleware'
 import webpackHotMiddleware from 'webpack-hot-middleware'
 import config from '../config'
+import webpackConfig from './webpack-dev.config'
 
 const app = express()
 const port = process.env.PORT || config.port
-const webpackConfig = {}
 const compiler = webpack(webpackConfig)
 
 const devMiddleware = webpackDevMiddleware(compiler, {
