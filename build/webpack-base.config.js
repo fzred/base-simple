@@ -9,6 +9,7 @@ export default {
     app: path.resolve(projectRoot, './src/main.js'),
   },
   output: {
+    publicPath: '/',
     path: path.resolve(projectRoot, './dist'),
     filename: '[name].js?[hash:7]',
   },
