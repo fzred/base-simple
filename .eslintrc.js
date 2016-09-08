@@ -12,5 +12,6 @@ module.exports = {
     "semi": [2, "never"],
     "one-var": 0,
     "no-console": 0,
+    'import/no-extraneous-dependencies': 0,
   },
 }
