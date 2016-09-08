@@ -1,0 +1,19 @@
+{
+  "name": "base-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzred/base-simple.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fzred/base-simple/issues"
+  },
+  "homepage": "https://github.com/fzred/base-simple#readme"
+}
