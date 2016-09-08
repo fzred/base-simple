@@ -1,3 +1,3 @@
 import './css/index.css'
 
-window.document.writeln(Date.now())
+window.document.writeln(new Date().toLocaleString())
