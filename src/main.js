@@ -1,2 +1,3 @@
-console.log(1)
-debugger
+import './css/index.css'
+
+console.log(43)
