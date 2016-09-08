@@ -1,3 +1,5 @@
 import './css/index.css'
 
-window.document.writeln(new Date().toLocaleString())
+window.setInterval(() => {
+  window.document.body.innerHTML = new Date().toLocaleString()
+}, 1000)

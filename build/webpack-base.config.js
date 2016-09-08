@@ -14,6 +14,14 @@ export default {
     filename: '[name].js?[hash:7]',
   },
   module: {
+    preLoaders: [
+      {
+        test: /\.js$/,
+        loader: 'eslint',
+        include: projectRoot,
+        exclude: /node_modules/
+      }
+    ],
     loaders: [
       { test: /\.(png|jpg)$/, loader: 'url-loader?limit=1' },
       { test: /\.css$/, loader: 'style-loader!css-loader!postcss-loader' },
